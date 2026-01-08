@@ -95,10 +95,6 @@ improving generalization.
 - Effectively separates Easy, Medium, and Hard classes
 - Robust to class imbalance
 
-Hyperparameter tuning was performed using **Optuna**.
-
----
-
 ### 🔸 Regression
 - Linear Regression
 - Ridge Regression
@@ -177,11 +173,11 @@ AutoJudge/
 ├── models/
 │   ├── tfidf_vectorizer.pkl
 │   ├── numeric_scaler.pkl
-│   ├── selectkbest_cls.pkl
-│   ├── selectkbest_reg.pkl
-│   ├── rf_classifier.pkl
+│   ├── selectkbest.pkl
+│   ├── reg_selector.pkl
+│   ├── rf_final_model.pkl
 │   ├── xgb_regressor.pkl
 │   └── label_encoder.pkl
 │
-└── AutoJudge_Report.pdf    # Final project report
+└── Report.pdf    # Final project report
 
