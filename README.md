@@ -5,7 +5,7 @@
 - **Roll Number:** 23112116
 - **Email** : [vishal_m@ch.iitr.ac.in]
 ---
-## 🎥 Demo Video (Mandatory)
+## 🎥 Demo Video
 A short 3 minute demo video explaining the project, model approach, and working web UI is available here:
 👉 **Demo Video Link:** [https://screenrec.com/share/ZVfGWbM6cy]
 
@@ -70,7 +70,6 @@ may not be fully represented by TF-IDF alone.
 > During experimentation, it was observed that excessive reliance on explicit difficulty
 keywords could introduce bias. Therefore, keyword features were carefully evaluated and
 used only when they improved generalization without causing label leakage.
-
 ---
 
 #### Numeric Features
